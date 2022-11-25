@@ -1,12 +1,26 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Recipe Index</title>
+        <style>
+            @keyframes spin {
+                0% {rotate: 0deg;}
+                100% {rotate: 360deg;}
+            }
+            .epic {
+                animation: spin 4s infinite;
+            }
+        </style>
+        <meta charset="UTF-8"/>
+        <title>Pie</title>
     </head>
-
+    <!--Odin Project 1: Recipe Website-->
     <body>
-        <h1>Odin Recipes</h1>
-        
+        <h1>The Pie Zone</h1>
+        <img class="epic" src="images/epic.jpg" alt="epic"/>
+        <ul>
+            <li><a href="recipes/apple.html">Apple Pie</a></li>
+            <li><a href="recipes/shep.html">Shepherd's Pie</a></li>
+            <li><a href="recipes/mud.html">Mud Pie</a></li>
+        </ul>
     </body>
 </html>
